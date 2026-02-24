@@ -21,6 +21,8 @@ data = {
     "order": "asc"
 }
 response = requests.post("http://localhost:5000/sort", json=data)
+```
+
 ## How to programmatically RECEIVE data
 The microservice will return a JSON object containing the sorted list.
 
@@ -32,7 +34,8 @@ The microservice will return a JSON object containing the sorted list.
     {"title": "Assignment 7", "priority": "High"},
     {"title": "Buy groceries", "priority": "Medium"}
   ]
-}```
+}
+```
 
 ## UML Sequence Diagram
 ![UML Sequence Diagram](diagram.png)
