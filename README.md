@@ -32,7 +32,7 @@ The microservice will return a JSON object containing the sorted list.
     {"title": "Assignment 7", "priority": "High"},
     {"title": "Buy groceries", "priority": "Medium"}
   ]
-}
+}```
 
 ## UML Sequence Diagram
 ![UML Sequence Diagram](diagram.png)
