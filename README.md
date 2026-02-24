@@ -2,10 +2,10 @@
 # Task Management Microservice (Sorting Service)
 
 ## Description
-[cite_start]This microservice provides automated sorting for task lists based on specific fields like title or priority level. [cite: 141]
+This microservice provides automated sorting for task lists based on specific fields like title or priority level.
 
 ## How to programmatically REQUEST data
-[cite_start]To request a sort, send an HTTP POST request to the microservice endpoint. [cite: 142, 143]
+To request a sort, send an HTTP POST request to the microservice endpoint.
 
 **Request Parameters:**
 - `tasks`: A list of task objects.
@@ -33,5 +33,6 @@ The microservice will return a JSON object containing the sorted list.
     {"title": "Buy groceries", "priority": "Medium"}
   ]
 }
+
 ## UML Sequence Diagram
-![UML Sequence Diagram](./diagram.png)
+![UML Sequence Diagram](diagram.png)
