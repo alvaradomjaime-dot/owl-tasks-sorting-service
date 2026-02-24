@@ -4,6 +4,20 @@
 ## Description
 This microservice provides automated sorting for task lists based on specific fields like title or priority level.
 
+## Installation
+Install required packages
+
+```pip install flask```
+
+Run the application
+
+```python app.py```
+
+The service will run on:
+
+```http://127.0.0.1:5000```
+
+
 ## How to programmatically REQUEST data
 To request a sort, send an HTTP POST request to the microservice endpoint.
 
