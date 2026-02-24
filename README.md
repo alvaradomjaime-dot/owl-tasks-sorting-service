@@ -38,4 +38,4 @@ The microservice will return a JSON object containing the sorted list.
 ```
 
 ## UML Sequence Diagram
-![UML Sequence Diagram](diagram.png)
+![UML Sequence Diagram](UML_diagram.png)
